@@ -4,7 +4,6 @@ ExpenseAI is an intelligent expense tracking application that helps you manage y
 
 <img width="106" alt="image" src="https://github.com/user-attachments/assets/2664ac9f-1e15-47ee-88f3-f2f107476dca" />
 
-
 ## Table of Contents
 
 - [Features](#features)
@@ -252,4 +251,4 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 ---
 
-Created with ❤️ by [Your Name] - [GitHub Profile](https://github.com/yourusername)
+Created with ❤️ by S.Buchanan - [GitHub Profile](https://github.com/Buchatech)
