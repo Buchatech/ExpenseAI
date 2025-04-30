@@ -59,7 +59,7 @@ ExpenseAI/
 ├── nodemon.json           # Nodemon configuration
 ├── package.json           # Node.js dependencies and scripts
 ├── server.js              # Main application entry point
-├── .env                   # Environment variables (not in repository)
+├── .env                   # Environment variables (not in repository. Use sample.env file for example.)
 ├── public/                # Static assets
 │   ├── index.html         # Main HTML file
 │   ├── css/               # CSS stylesheets
@@ -100,6 +100,7 @@ Follow these steps to set up ExpenseAI on your local machine:
 
 3. **Create a PostgreSQL database:**
    - Create a database for the application
+   - Create tables in database for the application
    - Note the database connection details for configuration
 
 4. **Set up environment variables:**
@@ -109,6 +110,9 @@ Follow these steps to set up ExpenseAI on your local machine:
      ```
    - Edit the `.env` file and update the values with your actual configuration:
      ```
+     # Server Configuration
+     PORT=80
+
      # Update with your PostgreSQL database credentials
      DB_HOST=localhost
      DB_PORT=5432
@@ -228,6 +232,17 @@ CREATE TABLE IF NOT EXISTS categories (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100) UNIQUE NOT NULL,
   frequency INTEGER DEFAULT 1
+);
+```
+
+### Insert Default Categories
+
+```sql
+INSERT INTO categories (name) 
+VALUES 
+  ('Food'), ('Transportation'), ('Housing'), ('Entertainment'), 
+  ('Healthcare'), ('Utilities'), ('Shopping'), ('Education')
+ON CONFLICT (name) DO NOTHING
 );
 ```
 
