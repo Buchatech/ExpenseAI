@@ -2,7 +2,8 @@
 
 ExpenseAI is an intelligent expense tracking application that helps you manage your personal or business expenses with AI-powered categorization. This application allows you to record, categorize, and analyze your expenses with a user-friendly interface and insightful visualizations.
 
-![ExpenseAI Logo](https://via.placeholder.com/150x150.png?text=ExpenseAI)
+<img width="106" alt="image" src="https://github.com/user-attachments/assets/2664ac9f-1e15-47ee-88f3-f2f107476dca" />
+
 
 ## Table of Contents
 
