@@ -4,6 +4,8 @@ ExpenseAI is an intelligent expense tracking application that helps you manage y
 
 <img width="106" alt="image" src="https://github.com/user-attachments/assets/2664ac9f-1e15-47ee-88f3-f2f107476dca" />
 
+For a demo of the app visit: https://expenseai.onrender.com
+
 <img width="1014" alt="image" src="https://github.com/user-attachments/assets/e4cb922d-cf42-4c41-a1fa-0fbfda36f630" />
 
 <img width="686" alt="image" src="https://github.com/user-attachments/assets/31d0d009-46f9-459e-bd7d-fe6f69e0ec9b" />
