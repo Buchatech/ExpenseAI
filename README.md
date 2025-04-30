@@ -103,21 +103,20 @@ Follow these steps to set up ExpenseAI on your local machine:
    - Note the database connection details for configuration
 
 4. **Set up environment variables:**
-   - Create a `.env` file in the root directory
-   - Add the following variables:
+   - Copy the sample environment file to create your own `.env` file:
+     ```bash
+     cp sample.env .env
      ```
-     # Server Configuration
-     PORT=3000
-
-     # PostgreSQL Database Configuration
+   - Edit the `.env` file and update the values with your actual configuration:
+     ```
+     # Update with your PostgreSQL database credentials
      DB_HOST=localhost
      DB_PORT=5432
      DB_NAME=expense_tracker
      DB_USER=your_user
      DB_PASSWORD=your_password
 
-     # AI Service
-     AI_API_URL=https://api-inference.huggingface.co/models/facebook/bart-large-mnli
+     # Get a Hugging Face API key from https://huggingface.co/settings/tokens
      HUGGINGFACE_API_KEY=your_huggingface_api_key
      ```
 

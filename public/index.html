@@ -11,7 +11,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
@@ -35,12 +35,19 @@
   </nav>
 
   <!-- Main Container -->
-  <div class="container mt-4">
+  <div class="container mt-4 flex-grow-1">
     <!-- Main Content Area -->
     <div id="main-content">
       <!-- Content will be loaded here dynamically -->
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-4 border-top">
+    <div class="container text-center text-muted">
+      Created by S.Buchanan - <a href="https://github.com/Buchatech" target="_blank">GitHub Profile</a> | <a href="http://www.buchatech.com" target="_blank">Buchatech Blog</a>
+    </div>
+  </footer>
 
   <!-- Expense Form Modal -->
   <div class="modal fade" id="expense-modal" tabindex="-1">
