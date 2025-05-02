@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: expenseai-app
+  namespace: expenseai-app-ns
+  labels:
+    app.kubernetes.io/name: expenseai-app
+    kubernetes.azure.com/generator: devhub
+spec:
+  type: LoadBalancer
+  selector:
+    app.kubernetes.io/name: expenseai-app
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
