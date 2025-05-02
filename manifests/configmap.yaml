@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: expenseai-app-config
+  namespace: expenseai-app-ns
+  labels:
+    app.kubernetes.io/name: expenseai-app
+    kubernetes.azure.com/generator: devhub
+data:
